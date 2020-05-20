@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "statechanged",
+      "connection": "testissues_SERVICEBUS"
+    }
+  ]
+}
